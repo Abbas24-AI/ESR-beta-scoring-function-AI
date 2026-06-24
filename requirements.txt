@@ -1,0 +1,16 @@
+# ERβ-Score — Python dependencies
+# Model artifacts in saved_model/ were serialized with scikit-learn 1.7.x and
+# re-saved in a numpy-portable form (verified to load on numpy 1.26 AND 2.2).
+# Keep scikit-learn on the 1.7 line so the pickles unpickle without version warnings.
+
+streamlit>=1.35.0
+rdkit>=2023.9.0
+scikit-learn>=1.7,<1.8
+numpy>=1.26
+scipy>=1.11
+joblib>=1.3.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Docking tab also needs system tools (install via conda, NOT pip):
+#   conda install -c conda-forge smina openbabel
