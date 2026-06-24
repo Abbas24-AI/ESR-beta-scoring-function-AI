@@ -1,43 +1,10 @@
-# ---- OS / editor cruft ----
-.DS_Store
-Thumbs.db
-*~
-.idea/
-.vscode/
-.claude/
+# clone
+git clone https://github.com/<your-org>/ESR_beta_New.git
+cd ESR_beta_New
 
-# ---- Python ----
-__pycache__/
-*.py[cod]
-*.egg-info/
-.ipynb_checkpoints/
-.venv/
-venv/
-env/
-.streamlit/secrets.toml
+# create & activate
+conda create -n erbeta python=3.10 -y
+conda activate erbeta
 
-# ---- Large screening libraries / raw data (archive on Zenodo or use Git LFS) ----
-TCM-R5 filtered.sdf
-IBscreen.csv
-cleaned_NPAtlas.csv
-virtual_screening_combined.csv
-virtual_screening_results.csv
-virtual_screening_results_*.csv
-ESRB_ecfp4.csv
-ESRB_ecfp6.csv
-ESRB_rdkitfp.csv
-ESRB_maccs.csv
-ESRB_descriptors_full.csv
-esrbetsa_raw.csv
-
-# ---- Generated docking outputs (keep prepared receptor; ignore bulky poses) ----
-docking_results/Docking_complexes/
-docking_results/ligands/
-docking_results/smina/
-docking_results/gnina/
-*.pdbqt
-
-# ---- Temp / build ----
-*.log
-*.tmp
-~$*           # Word lock files
+# core Python dependencies
+pip install -r requirements.txt
