@@ -1,0 +1,10 @@
+{
+  "method": "kNN-Tanimoto",
+  "knn_k": 5,
+  "ad_threshold": 0.24189188223117564,
+  "fp_type": "ECFP4",
+  "fp_radius": 2,
+  "fp_size": 2048,
+  "threshold_pct": 5,
+  "model_name": "GradBoost"
+}

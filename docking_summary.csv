@@ -1,0 +1,11 @@
+Rank,Name,Active_Probability,InDomain,Smina_Affinity,GNINA_Vina,GNINA_CNNscore,GNINA_CNNaffinity
+1,37473.mol2  -Estradiol,0.9656,In-Domain,-10.58542,,,
+2,37474.mol2  -Estradiol,0.9672,In-Domain,-10.38777,,,
+3,31155.mol235431,0.9768,In-Domain,-10.38652,,,
+4,42707.mol2Micromeline,0.9722,In-Domain,-9.33118,,,
+5,25863.mol227941,0.9726,In-Domain,-9.15197,,,
+6,"42128.mol25-(1-Methoxyethyl)-2,6-dihydroxy-1,7-dimethyl-9,10-dihydrophe-nanthrene",0.9721,In-Domain,-8.9556,,,
+7,32267.mol237030,0.9694,In-Domain,-8.50885,,,
+8,17037.mol218697,0.9657,In-Domain,-4.60276,,,
+9,41337.mol2Lespedezol_B2,0.9895,In-Domain,-4.04366,,,
+10,17022.mol218682,0.9801,In-Domain,-4.02968,,,
